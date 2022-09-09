@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(28, 31, 36);
+  margin: 0px !important;
+}
+
+.bg-color-top {
+  background-color: rgb(28, 31, 36);
+}
+
+.instagram-media {
+  border-radius: 0px !important;
+  border: solid 2px white !important;
+  width: 100vw !important;
+}

@@ -1,0 +1,20 @@
+@media (max-width: 575px) {
+  .logo-size {
+    height: 48px !important;
+  }
+  .height-media {
+    height: 100% !important;
+  }
+  .max-width-media {
+      min-height: 0px !important;
+  }
+  .instagram-media-rendered {
+    border-radius: 0px !important;
+    border: solid 0px white !important;
+    width: 100vw !important;
+}
+.media-mackground{
+  background-color: #F8F9FA;
+  color: #212529 !important;
+}
+}
