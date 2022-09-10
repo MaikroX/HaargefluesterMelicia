@@ -8,15 +8,6 @@
   .max-width-media {
     min-height: 0px !important;
   }
-  .instagram-media-rendered {
-    border-radius: 0px !important;
-    border: solid 0px white !important;
-    width: 100vw !important;
-  }
-  .media-mackground {
-    background-color: #f8f9fa;
-    color: #212529 !important;
-  }
   .padding-left-right {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -24,5 +15,11 @@
   .margin-left-right {
     margin-left: 0px !important;
     margin-right: 0px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .maps-width {
+    width: 75vw !important;
   }
 }
