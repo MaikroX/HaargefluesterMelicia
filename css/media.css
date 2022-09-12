@@ -2,9 +2,6 @@
   .logo-size {
     height: 48px !important;
   }
-  .height-media {
-    height: 100% !important;
-  }
   .max-width-media {
     min-height: 0px !important;
   }
@@ -22,10 +19,30 @@
   .background-media {
     background-color: rgb(248, 249, 250) !important;
   }
+  .height-100 {
+    height: auto;
+  }
 }
 
 @media (min-width: 576px) {
   .maps-width {
     width: 60vw !important;
+  }
+}
+
+@media (max-width: 790px) {
+  .big-bar-none {
+    display: none !important;
+  }
+}
+@media (min-width: 790px) {
+  .small-bar-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 370px) {
+  .hide-line {
+    display: none;
   }
 }

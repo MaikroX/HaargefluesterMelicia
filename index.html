@@ -36,13 +36,13 @@
     <div id="allIn">
       <!-- Navbar Start -->
       <nav
-        class="navbar navbar-expand-lg navbar-dark bg-color-top border-bottom border-light border-opacity-25 p-0 navbar-sticky"
+        class="navbar navbar-expand-sm navbar-dark bg-color-top border-bottom border-light border-opacity-25 p-sm-0 navbar-sticky"
       >
         <div class="container-fluid d-flex justify-content-between">
           <div>
             <a class="navbar-brand text-white" href="#">
               <img
-                class="logo-size ps-2 my-2"
+                class="logo-size my-sm-2"
                 src="./img/Logo_haargefl.jpeg"
                 alt=""
                 style="height: 48px"
@@ -54,64 +54,72 @@
               <img
                 src="./img/insta-logo4.jpg"
                 alt=""
-                style="width: 48px"
+                style="width: 40px"
                 role="button"
             /></a>
           </div>
-
-          <div class="d-flex flex-column">
-            <button
-              class="navbar-toggler my-2 p-1"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+          <div
+            class="d-flex align-items-center justify-content-evenly big-bar-none"
+          >
+            <ul
+              class="navbar-nav d-sm-flex d-grid justify-content-evenly align-items-center"
             >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse lead"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav">
-                <li class="nav-item d-flex justify-content-center">
-                  <a
-                    class="nav-link text-white navbar-fontsize"
-                    href="#überMich"
-                    >Über Mich</a
-                  >
-                </li>
-                <li class="ms-1 nav-item justify-content-center">
-                  <a
-                    class="nav-link text-white navbar-fontsize"
-                    href="#balayage"
-                    >Balayage</a
-                  >
-                </li>
-                <li class="ms-1 nav-item d-flex justify-content-center">
-                  <a
-                    class="nav-link text-white align-items-center navbar-fontsize"
-                    href="#haarverlängerung"
-                    >Haarverlängerung</a
-                  >
-                </li>
-                <li class="ms-1 nav-item d-flex justify-content-center">
-                  <a class="nav-link text-white navbar-fontsize" href="#"
-                    >Kontakt</a
-                  >
-                </li>
-              </ul>
-            </div>
+              <li class="nav-item d-flex justify-content-center">
+                <a class="nav-link text-white navbar-fontsize" href="#überMich"
+                  >Über Mich</a
+                >
+              </li>
+              <li class="nav-item d-flex justify-content-center">
+                <a class="nav-link text-white navbar-fontsize" href="#balayage"
+                  >Balayage</a
+                >
+              </li>
+              <li class="nav-item d-flex justify-content-center">
+                <a
+                  class="nav-link text-white align-items-center navbar-fontsize"
+                  href="#haarverlängerung"
+                  >Haarverlängerung</a
+                >
+              </li>
+              <li class="nav-item d-flex justify-content-center">
+                <a class="nav-link text-white navbar-fontsize" href="#"
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
-      <!-- Navbar Start -->
+      <!-- Navbar End -->
+
+      <!-- Little navbar responsive -->
+      <div
+        class="bg-dark d-flex justify-content-evenly align-items-center small-bar-none border-bottom border-light border-opacity-25 py-2"
+        style="position: sticky; top: 62px"
+      >
+        <a
+          class="nav-link text-white navbar-fontsize little-navbar-fontsize"
+          href="#balayage"
+          >Balayage</a
+        >
+        <span class="text-white hide-line">|</span>
+        <a
+          class="nav-link text-white align-items-center navbar-fontsize little-navbar-fontsize"
+          href="#haarverlängerung"
+          >Haarverlängerung</a
+        >
+        <span class="text-white hide-line">|</span>
+        <a
+          class="nav-link text-white navbar-fontsize little-navbar-fontsize"
+          href="#"
+          >Kontakt</a
+        >
+      </div>
+      <!-- Little navbar responsive -->
 
       <!-- First Part READY -->
       <div
-        class="bg-dark text-dark text-center height-media vh-100 m-0 d-flex justify-content-center align-items-sm-center div-height"
+        class="bg-dark text-dark text-center m-0 d-flex justify-content-center align-items-sm-center height-100"
       >
         <div class="container p-0 pb-sm-0">
           <div
@@ -155,7 +163,7 @@
             class="d-flex justify-content-evenly align-items-center flex-column-reverse flex-sm-row"
           >
             <img
-              class="d-none d-lg-flex justify-content-center align-items-center img-fluid col-sm-7 img-border"
+              class="d-none d-lg-flex justify-content-center align-items-center img-fluid col-sm-7 border border-2 border-dark"
               src="./img/überMich.jpg"
               alt="Pic of me"
               style="max-height: 600px; max-width: 480px"
@@ -1133,7 +1141,6 @@
           style="width: 400px; height: auto"
         />
       </div>
-
       <!-- Fourth Part-->
 
       <!-- include Google Maps -->
