@@ -35,7 +35,7 @@
   <body>
     <!-- Navbar Start -->
     <nav
-      class="navbar navbar-expand-lg navbar-dark bg-color-top border-bottom border-light border-opacity-25 p-0"
+      class="navbar navbar-expand-lg navbar-dark bg-color-top border-bottom border-light border-opacity-25 p-0 navbar-sticky"
     >
       <div class="container-fluid d-flex justify-content-between">
         <div>
@@ -44,7 +44,7 @@
               class="logo-size ps-2 my-2"
               src="./img/Logo_haargefl.jpeg"
               alt=""
-              style="height: 84px"
+              style="height: 48px"
             />
           </a>
         </div>
@@ -53,7 +53,7 @@
             <img
               src="./img/Instagram_icon.png"
               alt=""
-              style="max-width: 48px; max-height: 48px"
+              style="width: 40px"
               role="button"
           /></a>
         </div>
@@ -74,20 +74,28 @@
             class="collapse navbar-collapse lead"
             id="navbarSupportedContent"
           >
-            <ul class="navbar-nav pe-4">
+            <ul class="navbar-nav">
               <li class="nav-item d-flex justify-content-center">
-                <a class="nav-link text-white" href="#">Über Mich</a>
+                <a class="nav-link text-white navbar-fontsize" href="#überMich"
+                  >Über Mich</a
+                >
               </li>
               <li class="ms-1 nav-item justify-content-center">
-                <a class="nav-link text-white" href="#">Meine Arbeit</a>
+                <a class="nav-link text-white navbar-fontsize" href="#balayage"
+                  >Balayage</a
+                >
               </li>
               <li class="ms-1 nav-item d-flex justify-content-center">
-                <a class="nav-link text-white align-items-center" href="#"
+                <a
+                  class="nav-link text-white align-items-center navbar-fontsize"
+                  href="#"
                   >Preise</a
                 >
               </li>
               <li class="ms-1 nav-item d-flex justify-content-center">
-                <a class="nav-link text-white" href="#">Kontakt</a>
+                <a class="nav-link text-white navbar-fontsize" href="#"
+                  >Kontakt</a
+                >
               </li>
             </ul>
           </div>
@@ -133,7 +141,10 @@
     <div
       class="container-background text-dark text-center d-sm-flex justify-content-center align-items-center max-width-media"
     >
-      <div class="container p-0 min-vh-100 max-width-media d-sm-flex">
+      <div
+        class="container p-0 min-vh-100 max-width-media d-sm-flex"
+        id="überMich"
+      >
         <div
           class="d-flex justify-content-evenly align-items-center flex-column-reverse flex-sm-row"
         >
@@ -150,13 +161,13 @@
                 <span class="text-info">ÜBER</span>
                 <span class="">MICH</span>
               </h2>
-              <p class="lead m-4 mt-0">
+              <p class="lead p-4 mt-0">
                 Die Kombination aus 15 Jahren Erfahrung und meiner unendlichen
                 Wissbegierigkeit haben mich letztlich zum Friseurmeister und
                 meinem eigenen Salon geführt. Als Diplom Coloristin und
                 Blond-Spezialist liegen mir besonders Farbtechniken am Herzen.
               </p>
-              <p class="lead d-none d-sm-inline">
+              <p class="lead p-4 d-none d-sm-inline">
                 Neue Trends machen diese Branche so spannend, deshalb durfte
                 auch der Calligraphy Cut bei bei mir einziehen. Außerdem schlägt
                 mein Herz für Haarpflege und Beratung, denn das ist und bleibt
@@ -172,13 +183,14 @@
 
     <!-- Third Part -->
     <div
+      id="balayage"
       class="media-background-sm-flex d-flex flex-column flex-sm-row justify-content-center align-items-center text-bg-secondary"
     >
       <h2 class="fs-2 text-center m-0 p-2 text-light">
         ICH LIEBE <br />
         <span class="text-info">BALAYAGE</span>
       </h2>
-      <p class="lead fs-5 text-center m-0 m-4 text-light">
+      <p class="lead fs-5 text-center m-sm-4 text-light p-4">
         Das was ich tue, mache ich immer zu
         <b><span class="text-info">100%</span></b> mit Herz und Leidenschaft.
         Wichtig ist mir dabei die Wünsche der Kunden und meine Erfahrung
@@ -1064,7 +1076,7 @@
 
     <div class="d-sm-flex text-bg-secondary">
       <div
-        class="media-background-sm-flex d-flex flex-column justify-content-center align-items-center p-4"
+        class="media-background-sm-flex d-flex flex-column justify-content-center align-items-center p-2"
       >
         <h2 class="fs-2 text-center m-0 p-2 text-light">
           <span class="text-info">HAARVERDICHTUNG</span> |
@@ -1072,7 +1084,7 @@
           Eine Herzensangelegenheit
         </h2>
         <!-- Platzhalter -->
-        <p class="lead fs-5 text-center m-0 m-4 text-light mb-0">
+        <p class="lead fs-5 text-center my-2 text-light mb-0 p-4">
           Langes oder dichtes Haar ist der Wunsch vieler, der nicht jedem von
           Natur aus vergönnt ist. Gesundheit, Schicksal oder Genetik
           beeinflussen das Haarwachstum und das kann für viele auch eine echte

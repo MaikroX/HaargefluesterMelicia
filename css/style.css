@@ -2,6 +2,15 @@ body {
   margin: 0px !important;
 }
 
+.navbar-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.navbar-fontsize {
+  font-size: 16px;
+}
+
 .bg-color-top {
   background-color: rgb(28, 31, 36);
 }
@@ -33,4 +42,19 @@ body {
 .long-hairs {
   max-width: 100%;
   width: 300px;
+}
+
+.scroll-up {
+  position: fixed;
+  border-radius: 2px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0;
+  right: 50px;
+  bottom: 50px;
+  z-index: 1030;
+  visibility: hidden;
 }
