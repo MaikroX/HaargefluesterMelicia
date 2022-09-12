@@ -16,10 +16,16 @@
     margin-left: 0px !important;
     margin-right: 0px !important;
   }
+  .long-hairs-media {
+    width: 100vw !important;
+  }
+  .background-media {
+    background-color: rgb(248, 249, 250) !important;
+  }
 }
 
 @media (min-width: 576px) {
   .maps-width {
-    width: 75vw !important;
+    width: 60vw !important;
   }
 }
