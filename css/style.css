@@ -2,8 +2,17 @@ body {
   margin: 0px !important;
 }
 
-.bg-color-top {
-  background-color: rgb(28, 31, 36);
+.bg-color-top-bottom {
+  background-color: rgb(28, 31, 36) !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #0dcaf0 !important;
 }
 
 .navbar-sticky {
@@ -24,9 +33,12 @@ body {
   font-weight: bolder;
 }
 
+.footer {
+  font-size: 12px;
+}
+
 .instagram-media {
   border-radius: 0px !important;
-  border: solid 2px white !important;
   min-width: 280px !important;
 }
 

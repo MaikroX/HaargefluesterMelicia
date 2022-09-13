@@ -22,6 +22,13 @@
     <script src="js/main.js"></script>
     <script src="js/template.js"></script>
 
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
@@ -38,7 +45,7 @@
     <div id="allIn">
       <!-- Navbar Start -->
       <nav
-        class="navbar navbar-expand-sm navbar-dark bg-color-top border-bottom border-light border-opacity-25 p-sm-0 navbar-sticky"
+        class="navbar navbar-expand-sm navbar-dark bg-color-top-bottom border-bottom border-light border-opacity-25 p-sm-0 navbar-sticky"
       >
         <div class="container-fluid d-flex justify-content-between">
           <div>
@@ -67,12 +74,18 @@
               class="navbar-nav d-sm-flex d-grid justify-content-evenly align-items-center"
             >
               <li class="nav-item d-flex justify-content-center">
-                <a class="nav-link text-white navbar-fontsize" href="#überMich"
+                <a
+                  class="nav-link text-white navbar-fontsize"
+                  href="#überMich"
+                  title="Erfahrt mehr über Mich"
                   >Über Mich</a
                 >
               </li>
               <li class="nav-item d-flex justify-content-center">
-                <a class="nav-link text-white navbar-fontsize" href="#balayage"
+                <a
+                  class="nav-link text-white navbar-fontsize"
+                  href="#balayage"
+                  title="Warum Balayage"
                   >Balayage</a
                 >
               </li>
@@ -80,11 +93,15 @@
                 <a
                   class="nav-link text-white align-items-center navbar-fontsize"
                   href="#haarverlängerung"
+                  title="Haarverlängerung & Haarverdichtung"
                   >Haarverlängerung</a
                 >
               </li>
               <li class="nav-item d-flex justify-content-center">
-                <a class="nav-link text-white navbar-fontsize" href="#"
+                <a
+                  class="nav-link text-white navbar-fontsize"
+                  href="#"
+                  title="So kontaktiert Ihr mich"
                   >Kontakt</a
                 >
               </li>
@@ -127,9 +144,7 @@
           <div
             class="d-sm-flex flex-sm-column-reverse flex-md-row align-items-center justify-content-center"
           >
-            <div
-              class="bg-light p-sm-4 p-lg-5 vh-50 border border-2 border-light"
-            >
+            <div class="bg-light p-sm-4 p-lg-5 vh-50">
               <h1 class="p-4 pb-0 pb-sm-4 m-0">
                 <span class="text-info">Patricia</span>
                 <span class="">Best</span>
@@ -217,14 +232,14 @@
         </p>
       </div>
       <div
-        class="bg-dark bg-img2 d-sm-flex text-dark justify-content-center align-items-center background-media"
+        class="bg-dark bg-img2 d-sm-flex text-dark justify-content-center align-items-center background-media instagram-media"
       >
         <div
           class="container d-sm-flex align-items-center m-0 flex-column pt-0 justify-content-center h-50"
         >
           <div class="d-sm-flex text-bg-secondary"></div>
 
-          <div class="row d-flex mt-sm-4 justify-content-around p-sm-4">
+          <div class="row d-flex justify-content-around p-sm-4">
             <div
               class="col-sm-2 d-md-flex justify-content-center align-items-center m-0 d-none padding-left-right"
             >
@@ -513,7 +528,7 @@
             </div>
 
             <div
-              class="col-sm-2 d-md-flex justify-content-center align-items-center p-sm-2 m-0 d-none padding-left-right"
+              class="col-sm-2 d-sm-flex justify-content-center align-items-center p-sm-2 m-0 d-none padding-left-right"
             >
               <blockquote
                 class="instagram-media m-0"
@@ -1096,8 +1111,8 @@
         <div
           class="media-background-sm-flex d-flex flex-column justify-content-center align-items-center"
         >
-          <h2 class="fs-2 text-center m-0 p-4 pb-0 pb-sm-4 text-light">
-            <span class="text-info">HAARVERDICHTUNG</span> |
+          <h2 class="fs-2 text-center m-0 p-4 px-0 pb-0 pb-sm-4 text-light">
+            <span class="text-info">HAARVERDICHTUNG</span> &
             <span class="text-info">HAARVERLÄNGERUNG</span> <br />
           </h2>
           <!-- Platzhalter -->
@@ -1114,30 +1129,30 @@
       </div>
 
       <div
-        class="d-flex flex-column flex-md-row justify-content-evenly align-items-center w-100 h-100 flex-md-wrap"
+        class="bg-dark d-flex flex-column flex-md-row flex-md-wrap justify-content-evenly align-items-center w-100 h-100 pt-sm-4"
       >
         <img
-          class="long-hairs long-hairs-media my-sm-2"
+          class="long-hairs long-hairs-media my-sm-0"
           src="./img/Verdichtung1.jpg"
           alt=""
           style="width: 400px; height: auto"
         />
         <img
-          class="long-hairs long-hairs-media my-2 mb-0 mb-sm-2"
+          class="long-hairs long-hairs-media my-2 mb-0 my-sm-0"
           src="./img/Verdichtung3.jpg"
           alt=""
           style="width: 400px; height: auto"
         />
 
         <img
-          class="long-hairs d-none long-hairs-media d-md-flex my-2"
+          class="long-hairs d-none long-hairs-media d-md-flex d-xl-none my-2 my-sm-0"
           src="./img/Verdichtung2.jpg"
           alt=""
           style="width: 400px; height: auto"
         />
 
         <img
-          class="long-hairs long-hairs-media my-sm-2 mt-2"
+          class="long-hairs long-hairs-media my-sm-0 mt-2"
           src="./img/Verdichtung4.jpg"
           alt=""
           style="width: 400px; height: auto"
@@ -1158,10 +1173,10 @@
       </div>
 
       <div
-        class="d-flex justify-content-center align-items-center bg-dark p-2 pt-0"
+        class="d-flex justify-content-center align-items-center bg-dark p-0 pb-2"
       >
         <iframe
-          class="w-100 maps-width rounded-2"
+          class="w-100 maps-width"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10048.8382636813!2d11.0311694!3d50.9753169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb7a901e3a4083fa6!2sHaargefl%C3%BCster%20Melicia!5e0!3m2!1sde!2sde!4v1662767137188!5m2!1sde!2sde"
           width="600"
           height="450"
@@ -1179,6 +1194,38 @@
         ><img class="scroll-up" src="./img/arrow-up1.png" alt="" id="arrowUp"
       /></a>
     </div>
+
+    <!-- footer -->
+    <footer>
+      <div
+        class="bg-dark d-flex justify-content-center align-items-center border-top border-light border-opacity-25 py-2 bg-color-top-bottom"
+      >
+        <a
+          class="nav-link text-white navbar-fontsize little-navbar-fontsize p-2"
+          href="impressum.html"
+          >Impressum</a
+        >
+        <a
+          class="nav-link text-white navbar-fontsize little-navbar-fontsize p-2"
+          href="#"
+          >Datenschutz</a
+        >
+        <a
+          class="nav-link text-white navbar-fontsize little-navbar-fontsize p-2 text-center"
+          href="#"
+          >Zum Anfang</a
+        >
+      </div>
+      <div
+        class="bg-color-top-bottom footer d-flex justify-content-center pb-2"
+      >
+        <a class="pe-2" href="https://icons8.de/" target="#">Icons by icons8</a>
+        <a class="ps-2" href="unterstuetzung-der-eu.html"
+          >Unterstützung der EU</a
+        >
+      </div>
+    </footer>
+    <!-- footer -->
 
     <script async src="//www.instagram.com/embed.js"></script>
   </body>

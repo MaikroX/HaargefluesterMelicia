@@ -19,9 +19,6 @@
   .background-media {
     background-color: rgb(248, 249, 250) !important;
   }
-  .height-100 {
-    height: auto;
-  }
 }
 
 @media (min-width: 576px) {
@@ -44,5 +41,13 @@
 @media (min-width: 370px) {
   .hide-line {
     display: none;
+  }
+}
+
+@media (min-height: 873px) {
+  .media-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 }

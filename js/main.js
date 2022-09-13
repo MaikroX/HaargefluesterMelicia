@@ -6,7 +6,6 @@
 var myScrollFunc = function () {
   let myID = document.getElementById("arrowUp");
   var y = window.scrollY;
-  console.log("Das ist meine Id", myID);
   if (y >= 200) {
     myID.className = "scroll-up show";
   } else {
